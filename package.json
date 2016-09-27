@@ -1,0 +1,27 @@
+{
+  "name": "dev-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server/app.js",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeSchlangen/auth0-example.git"
+  },
+  "keywords": [
+    "auth0"
+  ],
+  "author": "Luke Schlangen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukeSchlangen/auth0-example/issues"
+  },
+  "homepage": "https://github.com/LukeSchlangen/auth0-example#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
